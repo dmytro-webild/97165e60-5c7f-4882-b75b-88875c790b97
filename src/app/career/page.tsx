@@ -94,7 +94,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/side-view-woman-working-as-photographer_52683-110074.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/collage-camera-with-vehicles-eyeglasses-against-pink-backdrop_23-2148084262.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/collage-camera-with-vehicles-eyeglasses-against-pink-backdrop_23-2148084262.jpg?_wi=3",
           imageAlt: "Side view woman working as a photographer",
         },
       ]}

@@ -66,7 +66,7 @@ export default function LandingPage() {
         name: "message",
         placeholder: "Message",
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/focused-young-photographer-is-taking-photo-dark-grunge-background_613910-12962.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/focused-young-photographer-is-taking-photo-dark-grunge-background_613910-12962.jpg?_wi=2"
     />
   </div>
 
