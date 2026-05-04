@@ -2,13 +2,13 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
-import FooterBase from '@/components/sections/footer/FooterBase';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import ProductCartItem from '@/components/ecommerce/cart/ProductCartItem';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
+import HeroLogo from '@/components/sections/hero/HeroLogo';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
+import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import ProductCartItem from '@/components/ecommerce/cart/ProductCartItem';
+import FooterBase from '@/components/sections/footer/FooterBase';
 
 export default function LandingPage() {
   return (
@@ -72,7 +72,7 @@ export default function LandingPage() {
             title="Recognized By"
             description="Professional affiliations and partners."
             names={[
-              "Fine Arts Review",              "Modern Gallery",              "Urban Collective",              "Lens Magazine",              "International Studio"
+              "Fine Arts Review", "Modern Gallery", "Urban Collective", "Lens Magazine", "International Studio"
             ]}
           />
         </div>
@@ -95,11 +95,12 @@ export default function LandingPage() {
         </div>
 
         <div id="ecommerce" data-section="ecommerce">
-          <ProductCartItem item={{ id: "cart1", name: "Product", price: "10", imageSrc: "" }} />
+          <ProductCartItem item={{ id: "cart1", name: "Product", price: "10", imageSrc: "", quantity: 1 }} />
         </div>
 
         <div id="footer" data-section="footer">
           <FooterBase
+            logoText="Photo Studio"
             columns={[
               {
                 title: "Explore",                items: [
@@ -114,7 +115,6 @@ export default function LandingPage() {
                 ]
               }
             ]}
-            logoText="Photo Studio"
           />
         </div>
       </ReactLenis>
