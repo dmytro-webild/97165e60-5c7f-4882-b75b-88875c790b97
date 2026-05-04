@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import HeroLogo from '@/components/sections/hero/HeroLogo';
+import HeroOverlay from '@/components/sections/hero/HeroOverlay';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
@@ -39,12 +39,14 @@ export default function LandingPage() {
         </div>
 
         <div id="hero" data-section="hero">
-          <HeroLogo
-            logoText="Photographer Name"
+          <HeroOverlay
+            title="Photographer Name"
             description="Capturing moments through a lens of artistic minimalism and profound visual storytelling."
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DGBQNhPqWGZ4nAeaiM8pDIPaz3/uploaded-1777898822026-66lsp2u8.png"
             imageAlt="minimalist photography studio"
             buttons={[{ text: "View Portfolio", href: "/works" }]}
+            textPosition="bottom"
+            showDimOverlay={true}
           />
         </div>
 
