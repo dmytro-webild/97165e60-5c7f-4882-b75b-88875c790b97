@@ -6,7 +6,7 @@ import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 
-export default function LandingPage() {
+export default function ContactPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="elastic-effect"
@@ -21,88 +21,52 @@ export default function LandingPage() {
         headingFontWeight="normal"
     >
       <ReactLenis root>
-  <div id="nav" data-section="nav">
-      <NavbarLayoutFloatingInline
-      navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Career",
-          id: "/career",
-        },
-        {
-          name: "Works",
-          id: "/works",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
-      ]}
-      brandName="Photo Studio"
-    />
-  </div>
+        <div id="nav" data-section="nav">
+          <NavbarLayoutFloatingInline
+            navItems={[
+              { name: "Home", id: "/" },
+              { name: "Career", id: "/career" },
+              { name: "Works", id: "/works" },
+              { name: "Contact", id: "/contact" }
+            ]}
+            brandName="Photo Studio"
+            button={{ text: "Contact", href: "/contact" }}
+          />
+        </div>
 
-  <div id="contact" data-section="contact">
-      <ContactSplitForm
-      useInvertedBackground={false}
-      title="Contact"
-      description="Inquiries regarding project collaborations and licensing."
-      inputs={[
-        {
-          name: "name",
-          type: "text",
-          placeholder: "Your Name",
-        },
-        {
-          name: "email",
-          type: "email",
-          placeholder: "Your Email",
-        },
-      ]}
-      textarea={{
-        name: "message",
-        placeholder: "Message",
-      }}
-      imageSrc="http://img.b2bpic.net/free-photo/focused-young-photographer-is-taking-photo-dark-grunge-background_613910-12962.jpg?_wi=2"
-    />
-  </div>
+        <div id="contact" data-section="contact">
+          <ContactSplitForm
+            useInvertedBackground={false}
+            title="Contact"
+            description="Inquiries regarding project collaborations and licensing."
+            inputs={[
+              { name: "name", type: "text", placeholder: "Your Name" },
+              { name: "email", type: "email", placeholder: "Your Email" }
+            ]}
+            textarea={{ name: "message", placeholder: "Message" }}
+            imageSrc="http://img.b2bpic.net/free-photo/focused-young-photographer-is-taking-photo-dark-grunge-background_613910-12962.jpg"
+          />
+        </div>
 
-  <div id="footer" data-section="footer">
-      <FooterBase
-      columns={[
-        {
-          title: "Explore",
-          items: [
-            {
-              label: "Career",
-              href: "/career",
-            },
-            {
-              label: "Works",
-              href: "/works",
-            },
-          ],
-        },
-        {
-          title: "Social",
-          items: [
-            {
-              label: "Instagram",
-              href: "#",
-            },
-            {
-              label: "Twitter",
-              href: "#",
-            },
-          ],
-        },
-      ]}
-      logoText="Photo Studio"
-    />
-  </div>
+        <div id="footer" data-section="footer">
+          <FooterBase
+            columns={[
+              {
+                title: "Explore",                items: [
+                  { label: "Career", href: "/career" },
+                  { label: "Works", href: "/works" }
+                ]
+              },
+              {
+                title: "Social",                items: [
+                  { label: "Instagram", href: "#" },
+                  { label: "Twitter", href: "#" }
+                ]
+              }
+            ]}
+            logoText="Photo Studio"
+          />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
