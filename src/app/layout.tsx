@@ -20,10 +20,10 @@ export const metadata: Metadata = {
   },
 };
 
-const interTight = Inter_Tight({
-  variable: "--font-inter-tight",
+
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${interTight.variable} antialiased`}>
+        <body className={`${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
