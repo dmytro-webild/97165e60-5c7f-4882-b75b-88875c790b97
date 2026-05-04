@@ -100,7 +100,7 @@ export default function LandingPage() {
 
         <div id="footer" data-section="footer">
           <FooterBase
-            logoText="Photo Studio"
+            logoText="Sungsoo Lee | 이성수"
             columns={[
               {
                 title: "Explore",                items: [
