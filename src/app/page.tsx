@@ -53,7 +53,7 @@ export default function LandingPage() {
       <HeroLogo
       logoText="Photographer Name"
       description="Capturing moments through a lens of artistic minimalism and profound visual storytelling."
-      imageSrc="http://img.b2bpic.net/free-photo/collage-camera-with-vehicles-eyeglasses-against-pink-backdrop_23-2148084262.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/collage-camera-with-vehicles-eyeglasses-against-pink-backdrop_23-2148084262.jpg?_wi=1"
       imageAlt="minimalist photography studio"
       buttons={[
         {
@@ -79,7 +79,7 @@ export default function LandingPage() {
           quote: "Incredible eye for detail.",
           tag: "Expertise",
           avatarSrc: "http://img.b2bpic.net/free-photo/elegant-mature-woman-sitting-stool_23-2148275043.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/collage-camera-with-vehicles-eyeglasses-against-pink-backdrop_23-2148084262.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/collage-camera-with-vehicles-eyeglasses-against-pink-backdrop_23-2148084262.jpg?_wi=2",
           imageAlt: "Elegant mature woman sitting on a stool",
         },
         {
@@ -90,7 +90,7 @@ export default function LandingPage() {
           quote: "A master of light and shadow.",
           tag: "Recognition",
           avatarSrc: "http://img.b2bpic.net/free-photo/elegant-senior-woman-sitting-chair_23-2148275119.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/focused-young-photographer-is-taking-photo-dark-grunge-background_613910-12962.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/focused-young-photographer-is-taking-photo-dark-grunge-background_613910-12962.jpg?_wi=1",
           imageAlt: "Elegant mature woman sitting on a stool",
         },
       ]}
