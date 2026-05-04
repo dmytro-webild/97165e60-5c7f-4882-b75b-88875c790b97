@@ -42,7 +42,7 @@ export default function LandingPage() {
           <HeroLogo
             logoText="Photographer Name"
             description="Capturing moments through a lens of artistic minimalism and profound visual storytelling."
-            imageSrc="http://img.b2bpic.net/free-photo/collage-camera-with-vehicles-eyeglasses-against-pink-backdrop_23-2148084262.jpg"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DGBQNhPqWGZ4nAeaiM8pDIPaz3/uploaded-1777898822026-66lsp2u8.png"
             imageAlt="minimalist photography studio"
             buttons={[{ text: "View Portfolio", href: "/works" }]}
           />
