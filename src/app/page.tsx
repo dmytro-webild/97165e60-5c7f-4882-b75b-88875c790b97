@@ -33,7 +33,7 @@ export default function LandingPage() {
               { name: "Works", id: "/works" },
               { name: "Contact", id: "/contact" }
             ]}
-            brandName="Photo Studio"
+            brandName="Sungsoo Lee | Photography"
             button={{ text: "Contact", href: "/contact" }}
           />
         </div>
